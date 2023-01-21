@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+    />
+</head>
+<body>
+    <!-- navbar -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <button class="navbar-toggler mb-2 bg-info" data-toggle="collapse" data-target="#mynav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+             <div class="navbar-collapse collapse" id="mynav">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <!-- sidebar -->
+                            <div class="col-xl-2 col-lg-3 col-md-4 sidebar fixed-top">
+                                <a href="" class="navbra-brand text-white d-block text-center mx-auto py-3 mb-4 bottomborder">
+                                    neon
+                                </a>
+                                <div class="bottomborder pb-3">
+                                    <img src="./images/dashp2.jpg" class="rounded-circle ml-3" style="width: 50px;" alt="">
+                                    <a href="" class="text-white">alitt</a>
+                                </div>
+                                <ul class="nav-bar list-unstyled flex-column mt-4">
+                                    <li class="nav-item current">
+                                        <a href="" class="nav-link text-white p-3 mb-2">
+                                            <i class="fas fa-home fa-lg ml-3">
+                                                
+                                            </i>
+                                            dashboard
+                                        </a>
+                                    </li>
+                                    <li class="nav-item sidebar-link">
+                                        <a href="" class="nav-link text-white p-3 mb-2">
+                                            <i class="fas fa-user fa-lg ml-3">
+                                                
+                                            </i>
+                                            profile
+                                        </a>
+                                    </li>
+                                    <li class="nav-item sidebar-link">
+                                        <a href="" class="nav-link text-white p-3 mb-2">
+                                            <i class="fas fa-envelope fa-lg ml-3">
+                                                
+                                            </i>
+                                            message
+                                        </a>
+                                    </li>
+                                    <li class="nav-item sidebar-link">
+                                        <a href="" class="nav-link text-white p-3 mb-2">
+                                            <i class="fas fa-shopping-cart fa-lg ml-3">
+                                                
+                                            </i>
+                                            sale
+                                        </a>
+                                    </li>
+                                    <li class="nav-item sidebar-link">
+                                        <a href="" class="nav-link text-white p-3 mb-2">
+                                            <i class="fas fa-chart-line fa-lg ml-3">
+                                                
+                                            </i>
+                                            analize
+                                        </a>
+                                    </li>
+                                    <li class="nav-item sidebar-link">
+                                        <a href="" class="nav-link text-white p-3 mb-2">
+                                            <i class="fas fa-chart-bar fa-lg ml-3">
+                                                
+                                            </i>
+                                            nemodar
+                                        </a>
+                                    </li>
+                                    <li class="nav-item sidebar-link">
+                                        <a href="" class="nav-link text-white p-3 mb-2">
+                                            <i class="fas fa-table fa-lg ml-3">
+                                                
+                                            </i>
+                                            tables
+                                        </a>
+                                    </li>
+                                    <li class="nav-item sidebar-link">
+                                        <a href="" class="nav-link text-white p-3 mb-2">
+                                            <i class="fas fa-wrench fa-lg ml-3">
+                                                
+                                            </i>
+                                            setting
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+
+                            <!-- endsidebar -->
+                      
+
+
+
+                            <!-- topnav -->
+
+                            <div class="col-xl-10 col-lg-9 col-md-8 fixed-top bg-dark py-2 mr-auto topnav">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h4 class="text-light">dashboard</h4>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <form action="" class="my-4 my-md-0">
+                                            <div class="input-group">
+                                                <button class="btn btn-white searchbutton">
+                                                    <i class="fas fa-search text-danger"></i>
+                                                </button>
+                                                <input type="text" placeholder="search" class="form-control inputsearch">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <ul class="navbar-nav flex-row justify-content-between">
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link">
+                                                    <i class="fas fa-comment text-muted fa-lg"></i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="" class="nav-link">
+                                                    <i class="fas fa-bell text-muted fa-lg"></i>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item mr-md-auto ">
+                                                <a href="#logout" data-toggle="modal" class="nav-link">
+                                                    <i class="fas fa-sign-out-alt text-danger fa-lg"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- endtopnav -->
+                        </div>
+                    </div>
+            </div>
+
+            
+
+        </nav>
+
+
+
+
+
+
+
+    <!-- eend of navbar -->
+
+    <!-- modal -->
+        <div class="modal fade" id="logout">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>do u wanna go out?</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-muted">when you go out somthing was wrong</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-success" data-dismiss="modal">i am in</button>
+                        <button class="btn btn-danger" >i am out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- end modal -->
+    <!-- card -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-10 col-lg-9 col-md-8 mr-auto ">
+                    <div class="row pt-md-5 mt-md-5 mb-5">
+                        <!-- card -->
+                        <div class="col-lg-3 col-md-6 p-2">
+                            <div class="card cardcmt">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="text-secondary">
+                                            <h5 class="">sale</h5>
+                                            <h5 class="mt-4">30 m</h5>
+                                        </div>
+                                        <i class="fas fa-shopping-cart fa-3x text-warning"></i>
+
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary text-left">
+                                    <i class="fas fa-sync ml-3"></i>
+                                    <span>refresh</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end cards -->
+                        <div class="col-lg-3 col-md-6 p-2">
+                            <div class="card cardcmt">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="text-secondary">
+                                            <h5 class="">need money</h5>
+                                            <h5 class="mt-4">m 5</h5>
+                                        </div>
+                                        <i class="fas fa-money-bill-alt fa-3x text-success"></i>
+
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary text-left">
+                                    <i class="fas fa-sync ml-3"></i>
+                                    <span>refresh</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end cards -->
+                        <div class="col-lg-3 col-md-6 p-2">
+                            <div class="card cardcmt">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="text-secondary">
+                                            <h5 class="">users</h5>
+                                            <h5 class="mt-4"> k 50</h5>
+                                        </div>
+                                        <i class="fas fa-users fa-3x text-info"></i>
+
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary text-left">
+                                    <i class="fas fa-sync ml-3"></i>
+                                    <span>refresh</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end cards -->
+                        <div class="col-lg-3 col-md-6 p-2">
+                            <div class="card cardcmt">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="text-secondary">
+                                            <h5 class="">view</h5>
+                                            <h5 class="mt-4">k 10</h5>
+                                        </div>
+                                        <i class="fas fa-chart-line fa-3x text-danger"></i>
+
+                                    </div>
+                                </div>
+                                <div class="card-footer text-secondary text-left">
+                                    <i class="fas fa-sync ml-3"></i>
+                                    <span>refresh</span>
+
+                                </div>
+                            </div>
+                        </div>
+                        <!-- end cards -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- end card -->
+
+    <!-- progres tasklist -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-9 col-md-8 mr-auto">
+                        <div class="row">
+                            <!-- progres bar -->
+                            <div class="col-lg-6">
+                                <div class="bg-dark text-white p-4 rounded">
+                                    <h4 class="mb-4">
+                                        projects
+                                    </h4>
+                                    <!-- projects -->
+                                    <h6 class="mb-2 mt-4">
+                                        online library
+                                    </h6>
+                                    <div class="progress" style="height: 20px;">
+                                        <div class="progress-bar progress-bar-striped font-weight-bold bg-danger" style="width: 85%;">85%</div>
+                                    </div>
+                                    <!-- endprojects -->
+                                    <!-- projects -->
+                                    <h6 class="mb-2 mt-4">
+                                        python library
+                                    </h6>
+                                    <div class="progress" style="height: 20px;">
+                                        <div class="progress-bar progress-bar-striped font-weight-bold bg-primary" style="width: 32%;">32%</div>
+                                    </div>
+                                    <!-- endprojects -->
+                                    <!-- projects -->
+                                    <h6 class="mb-2 mt-4">
+                                        php library
+                                    </h6>
+                                    <div class="progress" style="height: 20px;">
+                                        <div class="progress-bar progress-bar-striped font-weight-bold bg-success" style="width: 66%;">66%</div>
+                                    </div>
+                                    <!-- endprojects -->
+                                </div>
+                            </div>
+                            <!-- end progres -->
+                            <!-- tasklist -->
+                            <div class="col-lg-6">
+                                <h4 class="text-muted p-2 mb-3">tasks</h4>
+                                <!-- task -->
+                                <div class="container-fluid bg-white">
+                                    <div class="row py-3 mb-4 align-items-center task-border">
+                                        <div class="col-1">
+                                            <input type="checkbox" checked >
+                                        </div>
+                                        <div class="col-9">prepare back-end</div>
+                                        <div class="col-1">
+                                            <a href="" data-toggle="tooltip" data-html="true" data-placment="top" title="<h6>edit</h6>">
+                                                <i class="fas fa-edit fa-lg text-success ml-2"></i>
+                                            </a>
+                                         
+                                        </div>
+                                        <div class="col-1">
+                                            <a href="" data-toggle="tooltip" data-html="true" data-placment="top" title="<h6>remove</h6>">
+                                                <i class="fas fa-trash-alt fa-lg text-danger ml-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- endtask -->
+                                <div class="container-fluid bg-white">
+                                    <div class="row py-3 mb-4 align-items-center task-border">
+                                        <div class="col-1">
+                                            <input type="checkbox" checked >
+                                        </div>
+                                        <div class="col-9">prepare back-end</div>
+                                        <div class="col-1">
+                                            <a href="" data-toggle="tooltip" data-html="true" data-placment="top" title="<h6>edit</h6>">
+                                                <i class="fas fa-edit fa-lg text-success ml-2"></i>
+                                            </a>
+                                         
+                                        </div>
+                                        <div class="col-1">
+                                            <a href="" data-toggle="tooltip" data-html="true" data-placment="top" title="<h6>remove</h6>">
+                                                <i class="fas fa-trash-alt fa-lg text-danger ml-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- endtask -->
+                                <div class="container-fluid bg-white">
+                                    <div class="row py-3 mb-4 align-items-center task-border">
+                                        <div class="col-1">
+                                            <input type="checkbox" checked >
+                                        </div>
+                                        <div class="col-9">prepare back-end</div>
+                                        <div class="col-1">
+                                            <a href="" data-toggle="tooltip" data-html="true" data-placment="top" title="<h6>edit</h6>">
+                                                <i class="fas fa-edit fa-lg text-success ml-2"></i>
+                                            </a>
+                                         
+                                        </div>
+                                        <div class="col-1">
+                                            <a href="" data-toggle="tooltip" data-html="true" data-placment="top" title="<h6>remove</h6>">
+                                                <i class="fas fa-trash-alt fa-lg text-danger ml-2"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- endtask -->
+                                
+                            </div>
+                            <!-- end of task list -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+
+
+    <!-- end ofprogres tasklist -->
+
+    <!-- tables -->
+        <section>
+            <div class="container-fluid">
+                <div class="row mb-5">
+                    <div class="col-xl-10 col-lg-9 col-md-8 mr-auto">
+                        <div class="row">
+                            <div class="col-lg-6 mb-5 mb-lg-0">
+                                <h3 class="text-muted text-center mb-3">payments</h3>
+                                <table class="table table-dark table-hover text-center">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>name</th>
+                                            <th>cash</th>
+                                            <th>date</th>
+                                            <th>status</th>
+                                            <!-- <th>#</th> -->
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ali</td>
+                                            <td>3m</td>
+                                            <td>10 june</td>
+                                            <td><span class="badge py-2 badge-success w-75 ">payed</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ali</td>
+                                            <td>3m</td>
+                                            <td>10 june</td>
+                                            <td><span class="badge py-2 badge-danger w-75 ">not payed</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ali</td>
+                                            <td>3m</td>
+                                            <td>10 june</td>
+                                            <td><span class="badge py-2 badge-warning w-75 ">waiting</span></td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ali</td>
+                                            <td>3m</td>
+                                            <td>10 june</td>
+                                            <td><span class="badge py-2 badge-success w-75 ">payed</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                             <!-- paginatiom -->
+                                  <ul class="pagination justify-content-center">
+                                      <li class="page-item">
+                                          <a href="" class="page-link py-2 px-3">&laquo;</a>
+                                      </li>
+                                      <li class="page-item active">
+                                          <a href="" class="page-link py-2 px-3 " >1</a>
+                                      </li>
+                                      <li class="page-item">
+                                          <a href="" class="page-link py-2 px-3">2</a>
+                                      </li>
+                                      <li class="page-item">
+                                          <a href="" class="page-link py-2 px-3">3</a>
+                                      </li>
+                                      <li class="page-item">
+                                          <a href="" class="page-link py-2 px-3">&raquo;</a>
+                                      </li>
+                                  </ul>
+                             <!-- endpaginatiom -->
+                            </div>
+                            <div class="col-lg-6">
+                                <h3 class="text-muted text-center mb-3">last ticket</h3>
+                                <table class="table table-striped  text-center bg-light">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>name</th>
+                                            
+                                            <th>date</th>
+                                            <th>oprator</th>
+                                            <!-- <th>#</th> -->
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ali</td>
+                                            
+                                            <td>10 june</td>
+                                            <td>
+                                                <button class="btn btn-info btn-sm">answer</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ali</td>
+                                            
+                                            <td>10 june</td>
+                                            <td>
+                                                <button class="btn btn-info btn-sm">answer</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ali</td>
+                                            
+                                            <td>10 june</td>
+                                            <td>
+                                                <button class="btn btn-info btn-sm">answer</button>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>ali</td>
+                                            
+                                            <td>10 june</td>
+                                            <td>
+                                                <button class="btn btn-info btn-sm">answer</button>
+                                            </td>
+                                        </tr>
+                                     
+                                    </tbody>
+                                </table>
+                             <!-- paginatiom -->
+                                  <ul class="pagination justify-content-center">
+                                      <li class="page-item">
+                                          <a href="" class="page-link py-2 px-3">&laquo;</a>
+                                      </li>
+                                      <li class="page-item active">
+                                          <a href="" class="page-link py-2 px-3 " >1</a>
+                                      </li>
+                                      <li class="page-item">
+                                          <a href="" class="page-link py-2 px-3">2</a>
+                                      </li>
+                                      <li class="page-item">
+                                          <a href="" class="page-link py-2 px-3">3</a>
+                                      </li>
+                                      <li class="page-item">
+                                          <a href="" class="page-link py-2 px-3">&raquo;</a>
+                                      </li>
+                                  </ul>
+                             <!-- endpaginatiom -->
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    <!-- endtables -->
+
+    <!-- activities quick post -->
+        <section>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xl-10 col-lg-9 col-md-8 mr-auto">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <h4 class="text-muted mb-4">last activities</h4>
+                              <div id="myaccordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-light text-right" data-toggle="collapse" data-target="#collapse1">
+                                            <img src="./images/dashp2.jpg" alt="" class="ml-2 rounded" style="width: 50px;height: 50px;">
+                                            ali is created new discussion
+                                        </button>
+                                    </div>
+                                    <div class="collapse" data-parent="#myaccordion" id="collapse1">
+                                        <div class="card-body">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, cum.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-light text-right" data-toggle="collapse" data-target="#collapse2">
+                                            <img src="./images/dashp4.jpg" alt="" class="ml-2 rounded" style="width: 50px;height: 50px;">
+                                            mehdi is created new discussion
+                                        </button>
+                                    </div>
+                                    <div class="collapse" data-parent="#myaccordion" id="collapse2">
+                                        <div class="card-body">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, cum.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-light text-right" data-toggle="collapse" data-target="#collapse3">
+                                            <img src="./images/dashside6.jpg" alt="" class="ml-2 rounded" style="width: 50px;height: 50px;">
+                                            mehdi is created new discussion
+                                        </button>
+                                    </div>
+                                    <div class="collapse" data-parent="#myaccordion" id="collapse3">
+                                        <div class="card-body">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, cum.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <button class="btn btn-block btn-light text-right" data-toggle="collapse" data-target="#collapse4">
+                                            <img src="./images/dashp3.jpg" alt="" class="ml-2 rounded" style="width: 50px;height: 50px;">
+                                            mehdi is created new discussion
+                                        </button>
+                                    </div>
+                                    <div class="collapse" data-parent="#myaccordion" id="collapse4">
+                                        <div class="card-body">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, cum.
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-5 mt-5">
+                                <div class="card rounded">
+                                    <div class="card-body">
+                                        <h5 class="text-muted text-center mb-4"> new post </h5>
+                                        <ul class="list-inline text-center py-3">
+                                            <li class="list-inline-item">
+                                                <a href="" class="">
+                                                    <i class="fas fa-pencil-alt text-success"></i>
+                                                    <span class="h6 text-muted">status</span>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item px-2">
+                                                <a href="" class="">
+                                                    <i class="fas fa-camera text-dark"></i>
+                                                    <span class="h6 text-muted">picture</span>
+                                                </a>
+                                            </li>
+                                            <li class="list-inline-item">
+                                                <a href="" class="">
+                                                    <i class="fas fa-map-marked text-danger"></i>
+                                                    <span class="h6 text-muted">loc</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <form action="">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control py-2 mb-3" placeholder="search">
+                                                <button class="btn btn-block text-light bg-info ">send</button>
+                                            </div>
+                                        </form>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="card">
+                                                    <i class="far fa-calendar-alt fa-4x text-warning d-block m-auto py-3"></i>
+                                                    <div class="card-body">
+                                                        <p class="card-text text-center">3shanbe 17tir</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="card">
+                                                    <i class="far fa-clock fa-4x text-warning d-block m-auto py-3"></i>
+                                                    <div class="card-body">
+                                                        <p class="card-text text-center">9.30 am</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+    <!-- end of activities quick post -->
+
+
+    <!-- footer -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row mt-5 mb-3">
+                    <div class="col-xl-10 col-lg-9 col-md-8 mr-auto">
+                        <div class="row">
+                            <div class="col-lg-6 text-center">
+                                <ul class="list-inline">
+                                    <li class="list-inline-item ml-4">
+                                        <a href="" class="text-dark">aboutus</a>
+                                    </li>
+                                    <li class="list-inline-item ml-4">
+                                        <a href="" class="text-dark">backup</a>
+                                    </li>
+                                    <li class="list-inline-item ml-4">
+                                        <a href="" class="text-dark">weblog</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6 text-center">
+                                product <i class="fas fa-heart text-danger text-center"></i> by ali
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+    <!--end of footer -->
+
+ 
+    <script src="./js/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+        const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+</body>
+</html>
